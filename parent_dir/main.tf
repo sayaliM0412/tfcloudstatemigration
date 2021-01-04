@@ -20,3 +20,8 @@ output "bucket_environment" {
 output "bucket_environment_venkata_fun" {
   value = "${terraform.workspace}-lkasjdlkashjlklife"
 }
+
+
+resource "aws_s3_bucket" "terraform_s3_bucket_fun_parent_dir_yolo" {
+  bucket = "${terraform.workspace}-giggles-yoloooo"
+}
