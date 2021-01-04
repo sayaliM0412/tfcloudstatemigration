@@ -1,9 +1,9 @@
 terraform {
-  required_version = "0.13.4"
+  required_version = "0.14.3"
 
   backend "s3" {
     region = "us-west-2"
-    bucket = "mm-tf-cloud-giggles-test"
+    bucket = "tf-cloud-trial"
     key    = "parent_dir/terraform.tfstate"
   }
 }
