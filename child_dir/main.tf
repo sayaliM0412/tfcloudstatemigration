@@ -13,7 +13,7 @@ terraform {
     organization  = "TrialRun"
 
     workspaces {
-      prefix = "child-tfcloudstatemigration"
+      prefix = "child-tfcloudstatemigration-"
     }
   }
 }
