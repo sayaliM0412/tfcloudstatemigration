@@ -2,6 +2,10 @@ provider "aws" {
   region = var.region
 }
 
+
+variable "region" {
+}
+
 # Terraform configuration
 terraform {
   backend "remote" {
