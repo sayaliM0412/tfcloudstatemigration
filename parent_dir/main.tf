@@ -11,7 +11,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "terraform_s3_bucket_fun_parent_dir" {
-  bucket = "giggles"
+  bucket = "goggles"
 }
 output "bucket_environment" {
   value = "lkasjdlkashjlklife"
