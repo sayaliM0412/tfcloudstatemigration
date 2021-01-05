@@ -3,7 +3,7 @@ data "terraform_remote_state" "parent_dir" {
 
   config = {
     bucket = "mm-tf-cloud-giggles-test"
-    key    = "env:/${terraform.workspace}/parent_dir/terraform.tfstate"
+    key    = "env:/parent_dir/terraform.tfstate"
     region = "us-west-2"
   }
 }
