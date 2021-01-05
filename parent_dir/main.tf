@@ -10,7 +10,7 @@ terraform {
   }
 }
 
-resource "aws_s3_bucket" "terraform_s3_bucket_fun_parent_dir" {
+resource "aws_s3_bucket_object" "terraform_s3_bucket_fun_parent_dir" {
   bucket = "goggles"
 }
 output "bucket_environment" {
